@@ -1,0 +1,167 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <style>
+    .card-group img {
+        width: 100%;
+        height: 100%;
+        height: 500px; 
+        object-fit: cover;
+    }
+
+h1 {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem; 
+  margin-bottom: 1rem;
+}
+
+
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+
+
+<body>
+
+
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<h1 class="text-center my-5">
+I Migliori Film Della Storia Del Cinema
+</h1>
+
+<div class="accordion my-5" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       Top 5 Film
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Quarto Potere (Citizen Kane) - Orson Welles - 1941
+      </div>
+    </div>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        2001 Odissea nello Spazio - Stanley Kubrick - 1968
+      </div>
+    </div>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        8½ - Federico Fellini - 1963
+      </div>
+    </div>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Il posto delle fragole (Smultronstället) - Ingmar Bergman - 1957
+      </div>
+    </div>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Rashōmon - Akira Kurosawa - 1950
+      </div>
+    </div>
+  </div>
+  
+  </div>
+<div class="card-group my-5">
+  <div class="card">
+    <a href="https://it.wikipedia.org/wiki/Quarto_potere" target="_blank" class="mx-auto">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg/500px-Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg" class="card-img-top" alt="Quarto Potere di Orson Welles - anno 1941">
+    </a>
+    <div class="card-body">
+      <h5 class="card-title">Quarto Potere</h5>
+      <p class="card-text">Orson Welles - 1941</p>
+    </div>
+    
+  </div>
+  <div class="card">
+    <a href="https://it.wikipedia.org/wiki/2001:_Odissea_nello_spazio" target="_blank" class="mx-auto">
+      <img src="https://m.media-amazon.com/images/I/31HnWHJgh2L._SY300_SX300_QL70_ML2_.jpg" class="card-img-top mx-auto" alt="2001 Odissea nello spazio di Stanley Kubrick - anno 1968">
+    </a>
+      <div class="card-body">
+      <h5 class="card-title">2001 Odissea nello Spazio</h5>
+      <p class="card-text">Stanley Kubrick - 1968</p>
+    </div>
+   
+  </div>
+  <div class="card">
+    <a href="https://it.wikipedia.org/wiki/8%C2%BD" target="_blank" class="mx-auto">
+      <img src="https://m.media-amazon.com/images/M/MV5BZGM0YzVjMWQtYjk0OC00Zjg0LTg2NzAtOTY5OTcyZWQxMTMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top mx-auto" alt="Otto e Mezzo di Federico Fellini - anno 1963">
+    </a>
+      <div class="card-body">
+      <h5 class="card-title">8½</h5>
+      <p class="card-text">Federico Fellini - 1963</p>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<div class="card text-center my-5">
+  <div class="card-header">
+    Opinioni alternative
+  </div>
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <p class="card-text"> </p>
+    <a href="https://it.wikipedia.org/wiki/100_pi%C3%B9_grandi_film_secondo_il_Time" target="_blank" class="btn btn-primary">100 più grandi film secondo il Time</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+
+  </div>
+</div>
+
+ </div>
+
+</body>
+</html>
